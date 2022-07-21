@@ -1,0 +1,21 @@
+.main{
+
+    text-align: center;
+    padding:3% 5%;
+
+}
+.showposts{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+
+}
+.card{
+    width:90%;
+    height:25rem !important;
+    margin-top:2rem;
+    &:hover{
+        background-color:var(--themcolor-lowopacity) !important;
+        
+
+    }
+}
